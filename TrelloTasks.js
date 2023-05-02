@@ -4,7 +4,7 @@
 // You need to authorize this  
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 const APIKey = '27cad8cea54c62466b830df4135f11dc';
-//const APIToken = 'You need to authorize this app in trello by visiting this url: https://trello.com/1/authorize?expiration=never&boards=30pWOrL1&scope=read,account&response_type=token&key=27cad8cea54c62466b830df4135f11dc Then past APIToken from trello here'; 
+//const APIToken = 'You need to authorize this app in trello by visiting this url: https://trello.com/1/authorize?expiration=never&boards=30pWOrL1&scope=read,account&response_type=token&key=27cad8cea54c62466b830df4135f11dc Then past APIToken from trello here';//const APIToken = 'You need to authorize this app in trello by visiting this url: https://trello.com/1/authorize?expiration=never&boards=30pWOrL1&scope=read,account&response_type=token&key=27cad8cea54c62466b830df4135f11dc Then past APIToken from trello here'; 
 const boardId = '30pWOrL1';
 const neededLabel = '';//'To the next call';
 const neededList = ['Discussed ✔', 'Prepared for discuss'];
