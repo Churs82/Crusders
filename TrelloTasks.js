@@ -9,6 +9,7 @@ const boardId = '30pWOrL1';
 const neededLabel = '';//'To the next call';
 const neededList = ['Discussed ✔', 'Prepared for discuss'];
 let lineNum =0;
+
 var checklists = {};
 var memberName = '';
 var cards = {};
